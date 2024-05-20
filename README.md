@@ -16,7 +16,9 @@ Spacee is an exciting JavaFX game that transports players into a thrilling space
 ## Installation
 1. Clone the Spacee repository to your local machine.
 2. Open the project in an IDE that supports JavaFX.
-3. Compile and run the `Spacee.java` file to start playing the game.
+3. Compile and run the `Spacee.java` file to start playing the game.![space2](https://github.com/eng-shahd/JAVA_FX/assets/158595641/db8ef6d2-2a43-43e7-9a67-2b2eea1fc194)
+![space](https://github.com/eng-shahd/JAVA_FX/assets/158595641/ffc7a02e-d1ef-4315-8313-127befa85b28)
+
 
 ## Usage
 - Use the left and right arrow keys to maneuver your spaceship.
