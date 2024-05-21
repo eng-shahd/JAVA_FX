@@ -617,6 +617,7 @@ public class Spacce extends Application {
         Bounds playerBounds = player.getPlayerBounds();
         for (Node monster : monsters.getChildren()) {
             if (playerBounds.intersects(monster.getBoundsInParent())) { // check if boundbox of player interset boundbox of monster
+                 monsters.getChildren().remove(monster);
                 return true; 
            }
         }
