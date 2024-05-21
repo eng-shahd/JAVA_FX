@@ -539,9 +539,13 @@ public class Spacce extends Application {
         heartTime.play();
         endGameButton.setOnMouseClicked(e -> {
           gameRoot.getChildren().removeAll(backgroundImageView, player, monsters,endGameButton,lblScore,gameOver);
-          timelineGameover.stop();
+          
+          gameRoot.getChildren().remove(heartList);
+          heartList.clear();
           gameGroundTime.stop();
           bulletUpdateTime.stop();
+          timelineGameover.stop();
+          
           showScore();
         });
        
