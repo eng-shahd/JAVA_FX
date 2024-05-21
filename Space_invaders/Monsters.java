@@ -67,18 +67,10 @@ public class Monsters extends Pane{
                     bulletIterator.remove(); // Remove the bullet from the list
                     getChildren().remove(bullet);
                    score++;
-                   if(score>30&&score<50){  // set speed of monster to make game more hard
-                         MONSTER_SPEED=7;
+                  if(score % 4 == 0){  // set speed of monster to make game more hard
+                         MONSTER_SPEED += 1;
                     }
-                    else if(score>50&&score<100){
-                         MONSTER_SPEED=8;
-                    }
-                    else if(score>100){
-                         MONSTER_SPEED=10;
-                    } 
-                    else{
-                        MONSTER_SPEED=5;
-                    }
+
                     break; // Exit the loop after handling collision
                 }
             }
